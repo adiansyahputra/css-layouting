@@ -1,0 +1,34 @@
+/* .navigasi {
+    background-color: pink;
+}
+
+.main {
+    background-color: lightgreen;
+}
+
+.main span {
+    background-color: purple;
+} */
+
+/* a {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.main {
+    width: 700px;
+    background-color: lightgreen;
+}
+
+.main h2 {
+    background-color: pink;
+} */
+
+img {
+    display: none;
+}
+
+.navigasi li {
+    display: inline;
+}

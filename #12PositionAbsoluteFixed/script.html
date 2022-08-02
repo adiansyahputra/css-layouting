@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Css Position</title>
+  </head>
+  <body>
+    <!-- Position : static, relative, absolute, fixed
+    #Kalau kita ngasih apa apa di position, maka defaultnya adalah static
+    - static adalah nilai default dari tiap-tiap elemen ketika tidak diberi position
+    - Menggunakan position selain static(non-static), akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi dari elemen lainnya
+    - elemen yang diberi position selain static dapat menggunakan properti top, left, bottom, dan right untuk mengatur posisinya
+
+    Position Absolute :
+    - Ketika kita menggerakkan elemen dengan posisi absolute(menggunakan properti top, left, bottom dan right), ruang yang ditempati oleh elemen tersebut dianggap tidak ada
+    - Ketika kita menggerakkan elemen dengan posisi absolute, elemen akan bergerak relatif terhadap posisi dari elemen parent-nya, selama elemen parent-nya memiliki posisi yang juga non-static
+    - Jika kita memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas dari elemen parent-nya
+    -->
+
+    <div class="container">
+      <div class="satu"></div>
+      <div class="dua"></div>
+      <div class="tiga"></div>
+    </div>
+  </body>
+</html>
